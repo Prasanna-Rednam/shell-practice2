@@ -1,7 +1,9 @@
 #!/bin/bash
 
-echo "suresh: hello ramesh , how r u?"
-echo "ramesh: hello suresh doing, how r u!!"
-echo "suresh: good good, what are youu learning"
-echo "ramesh: i am learning, shell script"
-echo "suresh: oo okeyyy!!!"
+PERSON2="ramesh" #no space in between variable, = and value
+PERSON1="suresh"
+echo "$PERSON1: hello $PERSON2 , how r u?"
+echo "$PERSON2: hello $PERSON1 doing, how r u!!"
+echo "$PERSON1: good good, what are youu learning"
+echo "$PERSON2: i am learning, shell script"
+echo "$PERSON1: oo okeyyy!!!"
