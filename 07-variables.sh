@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "all arg passed to script: $@ , $*"
+echo "all arg passed to script: $@  treates as seperates ariable '
+, $* treates as single variable"
 echo "no of arg passed to the script: $#"
 echo "present working directory: $PWD"
 echo "home directory of thr user: $USER"
