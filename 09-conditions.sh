@@ -11,5 +11,6 @@ elif [ $NUMBER -eq 5]; then
 elif [ $NUMBER -ne 5]; then
       echo "num not eq to 5"
 else    
-      echo "not a number"     
+      echo "not a number"   
+fi        
         
