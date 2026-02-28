@@ -24,12 +24,12 @@ validate(){
 }
 
 dnf install nginx -y  &>>$LOGS_FILE
-validate $? "installing nginx"
+validate $? "installing nginx" | tee LOGS_FILE
 
 
 dnf install mysql -y &>>$LOGS_FILE
-validate $? "installing mysql"
-
+validate $? "installing mysql" | tee LOGS_FILE
 
 dnf install nodejs -y &>>$LOGS_FILE
-validate $? "installing nodejs" 
+validate $? "installing nodejs" | tee LOGS_FILE
+
