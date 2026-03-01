@@ -36,7 +36,7 @@ mkdir -p $LOGS_FOLDER
 #sudu sh 14-loops.sh nginx mysql nodejs
 for package in $@
 do 
-   dnf list installed $package &>>$LOGS_FILE
+   dnf list installe $package &>>$LOGS_FILE
    if [ $? -ne 0 ]; then
      echo -e "$BLUE package is not installed, installing $N $RED $package $N"
      dnf install $package -y &>>$LOGS_FILE
