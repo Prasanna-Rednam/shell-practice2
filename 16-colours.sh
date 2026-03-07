@@ -21,10 +21,10 @@ mkdir -p $LOGS_FOLDER
 
 validate(){
     if [ $1 -ne 0 ]; then 
-      echo -e "$RED $2... failure $N"
+      echo -e "$RED $2... failure "
     
    else
-      echo -e "$GREEN $2 ... sucess $N"
+      echo -e "$GREEN $2 ... sucess "
     fi       
 }
 
