@@ -9,4 +9,4 @@ echo "pid of script-1: $$"
 
 #sh 01-hello-world.sh 
 
-source script-2.sh 
+source ./script-2.sh 
