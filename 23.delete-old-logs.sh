@@ -8,6 +8,7 @@ YELLOW="\e[33m"
 LOGS_DIR="/root/app_logs"
 LOGS_FILE="$LOGS_DIR/$0.log"
 
+cd $LOGS_DIR
 if [ ! -d $LOGS_DIR ]; then
      echo -e "$LOGS_DIR does not exist"
      exit 1
