@@ -5,7 +5,7 @@ BLUE="\e[34m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
 
-LOGS_DIR="/root/app_logs"
+LOGS_DIR="/root/app-logs"
 LOGS_FILE="$LOGS_DIR/$0.log"
 
 if [ ! -d $LOGS_DIR ]; then
