@@ -19,5 +19,7 @@ echo "$FILES_TO_DELETE"
 
  while IFS= read -r filepath; do
  # Process the line (e.g., print it)
-   echo "$filepath"
+   echo "DELETING FILE: $filepath"
+   rm -f $filepath
+   echo "Deleted file: $filepath"
  done <<< $FILES_TO_DELETE 
