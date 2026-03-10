@@ -14,4 +14,4 @@
 while IFS= read -r LINE; do
   # Process the line (e.g., print it)
   echo "$LINE"
-done < .script-1.sh # input which file to read 
+done < script-1.sh # input which file to read 
