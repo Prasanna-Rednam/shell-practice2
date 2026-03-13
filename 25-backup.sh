@@ -11,7 +11,7 @@ LOGS_FOLDER="/var/log/shell-script"
 LOGS_FILE="/var/log/shell-script/backup.log"
 SOURCE_DIR=$1
 DEST_DIR=$2
-DAY=${3:-14}#14 days is the default value, if the user not supplied
+DAY=${3:-14} #14 days is the default value, if the user not supplied
 
 
 
