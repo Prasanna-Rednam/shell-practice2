@@ -10,7 +10,7 @@ N="\e[0m"
 LOGS_FOLDER="/var/log/shell-script"
 LOGS_FILE="/var/log/shell-script/backup.log"
 
-if [ $USER_ID -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
    echo -e "$RED please run this script with root user access $N"
    exit 1
 fi
